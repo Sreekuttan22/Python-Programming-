@@ -1,0 +1,7 @@
+l=[]
+n=input("Enter the words:")
+l.append(n)
+t=0
+for i in n:
+    t=t+i.count('a')
+print("Occurance is ",t)
