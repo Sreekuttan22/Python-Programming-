@@ -1,0 +1,16 @@
+def fib():
+    n=int(input("Enter the limit:"))
+    s=0
+    a=1
+    if n==0:
+        print("NO SERIES")
+    elif n==1:
+        print(a)
+    else:
+        print(s,"\t",a,end="")
+        for i in range(0,n-2):
+            b=s+a
+            s=a
+            a=b
+            print("\t",b,end="")
+fib()
