@@ -1,0 +1,28 @@
+m=int(input("Enter the size of first list"))
+n=int(input("Enter the size of second list"))
+
+lis1=[]
+for i in range(0,m):
+    k=int(input("Enter the elements of first list:"))
+    lis1.append(k)
+lis2=[]
+for i in range(0,n):
+    a=int(input("Enter the elements of second list"))
+    lis2.append(a)
+    
+print("-->The sum of first list is:",sum(lis1))
+print("-->The sum of second list is",sum(lis2))
+
+if sum(lis1)==sum(lis2):
+    print("-->Sum of two lists are equal")
+else:
+    print("-->The sum of two list are Not same")
+    
+if (m==n):
+    print("-->Length of two lists are same")
+else:
+    print("-->Length of list are not same")
+print("-->The repeating elements are\t")
+for i in lis1:
+    if i in lis2:
+         print(i)
