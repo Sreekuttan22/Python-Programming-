@@ -1,0 +1,5 @@
+#rplace first and last
+
+word1=input("Enter any words \t")
+text=word1[-1]+word1[1:-1]+word1[0]
+print(text)
