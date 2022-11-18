@@ -1,0 +1,5 @@
+list=[2,-2,4,5,-6]
+print("the given list:",list)
+print("List of positive integers ")
+list1=[i for i in list if i>0]
+print(list1)
