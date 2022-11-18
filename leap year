@@ -1,0 +1,7 @@
+now=int(input("Enthe the current year"))
+year=int(input("Enther the final year"))
+print("THE LIST OF THE YEARS ARE\n")
+for i in range(now,year+1):
+    if (i%400==0) or (i%4==0 and i%100!=0):
+        print(i)
+        
